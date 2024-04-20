@@ -1,0 +1,22 @@
+.contact{
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+    
+   
+}
+.form-control{
+    width:  50%;
+    margin-left: 120px;
+    padding-top: 20px;
+    margin-top: 70px;
+    background-color: transparent;
+    background: -webkit-linear-gradient(#ebe40f, #d808a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+textarea{
+    background: -webkit-linear-gradient(#ebe40f, #d808a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

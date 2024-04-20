@@ -1,0 +1,20 @@
+.skill{
+   
+    display: flex;
+   text-align: center;
+   margin-top: 70px;
+   background: -webkit-linear-gradient(#ebe40f, #d808a4);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.first-tech{
+    margin-top: 45px;
+    
+    
+}
+
+.skill h4,h2{
+  background: -webkit-linear-gradient(#ebe40f, #d808a4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
