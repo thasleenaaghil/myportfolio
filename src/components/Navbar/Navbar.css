@@ -1,32 +1,18 @@
 
 
 .Nav{
-    width:100%;
-    background: #250821;
-    height: 60px;
-    
-    margin-top: 20px;
-     
-   }
-   ul{
-     flex: 1;
-     list-style: none;
-     text-align: center;
-    
-   }
-   ul li{
-     display: inline-block;
-     margin: 10px 50px;
-     font-size: 25px;
-     cursor: pointer;
-     background: -webkit-linear-gradient(#ebe40f, #d808a4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
    
-    
-   }
-   a{
-     text-decoration: none;
-     
-     
-   }
+ margin-right: 700px;
+ margin-left: 50px;
+  
+ 
+   
+ }
+ 
+ a{
+   text-decoration: none;
+   color: white;
+   
+ }
+
+ 
