@@ -16,8 +16,8 @@ function Contact() {
       <div className='row contact'><h3>Get in touch</h3>
       <div className='col-md-6'>
       <h3>Let's talk</h3>
-     <p className='ps-5 ms-5' style={{textAlign:'justify'}}>I'm currently available to take on new projects,so feel free to send me a message about anything that you want me to work on.</p>
-     <div className="icon-set ">
+     <p className='ps-3 ms-5' style={{textAlign:'justify'}}>I'm currently available to take on new projects,so feel free to send me a message about anything that you want me to work on.</p>
+     <div >
          <ul>
            <li>
              <FontAwesomeIcon icon={faEnvelope} beat /> <h6>thasleenalatheefaliyam@gmail.com</h6> <br />
@@ -37,7 +37,7 @@ function Contact() {
        <input type="email" class="form-control" placeholder='Your Email'  />
        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Type your message here'></textarea>
   
-       <button style={{backgroundColor:'yellow',marginRight:'450px'}} className='rounded p-2 btn-outline-light text-dark mt-3  '>Submit</button>
+       <button style={{backgroundColor:'yellow',marginRight:'430px'}} className='rounded p-2 btn-outline-light text-dark mt-3  '>Submit</button>
   
       </div>
       
