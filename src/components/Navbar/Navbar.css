@@ -3,7 +3,9 @@
 .Nav{
    
  margin-right: 700px;
- margin-left: 50px;
+ margin-left: 60px;
+ margin-top: 15px;
+ 
   
  
    
@@ -11,8 +13,10 @@
  
  a{
    text-decoration: none;
-   color: white;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
    
  }
+
 
  

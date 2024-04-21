@@ -1,6 +1,9 @@
 import React from 'react'
 import './Navbar.css'
-import { HashLink as Link } from 'react-router-hash-link'
+
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 
@@ -9,10 +12,11 @@ function Navbar() {
     <>
     <div className='Nav'>
       <nav class="navbar ">
-    <a  style={{color:'white',background:"blac"}} class="navbar-brand " href="#home">Home</a>
-    <a style={{color:'white',background:"blac"}} class="navbar-brand " href="#skills">Skill</a>
-    <a style={{color:'white',background:"blac"}} class="navbar-brand " href="#projects">Project</a>
-    <a style={{color:'white',background:"blac"}} class="navbar-brand " href="#contact">Contact</a>
+      <FontAwesomeIcon icon={faBars}  className='icon' style={{color:'yellow'}} />
+    <a  style={{color:'yellow'}} class="navbar-brand " href="#home">Home</a>
+    <a style={{color:'yellow'}} class="navbar-brand " href="#skills">Skill</a>
+    <a style={{color:'yellow'}} class="navbar-brand " href="#projects">Project</a>
+    <a style={{color:'yellow'}} class="navbar-brand " href="#contact">Contact</a>
   </nav>
     </div>
 

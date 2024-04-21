@@ -16,7 +16,7 @@ function Contact() {
       <div className='row contact'><h3>Get in touch</h3>
       <div className='col-md-6'>
       <h3>Let's talk</h3>
-     <p className='ps-3 ms-5' style={{textAlign:'justify'}}>I'm currently available to take on new projects,so feel free to send me a message about anything that you want me to work on.</p>
+     <p className='ps-3 ms-5 m-md-1' style={{textAlign:'justify'}}>I'm currently available to take on new projects,so feel free to send me a message about anything that you want me to work on.</p>
      <div >
          <ul>
            <li>
