@@ -8,7 +8,7 @@ function Work() {
    <section id='projects'>
       <div className='row work p-4 '>
        <h3>Projects</h3>
-      <div className='col-md-3  pt-3 '>
+      <div className='col-md-2  pt-3 '>
       <Card style={{ width: '16.5rem' }}>
        
           <div className='overlay'>
@@ -38,7 +38,8 @@ function Work() {
         </Card.Body>
       </Card>
       </div>
-      <div className='col-md-3 pt-3'>
+      <div className='col-md-1'></div>
+      <div className='col-md-2 pt-3'>
       <Card style={{ width: '18rem' }}>
        <div className='overlay'>
           <Card.Img variant="top"className='images' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHq0iSAVrQg6eCNIFXDosf5WJ2bUZlQIom3wqCofoJrA&s" />
@@ -54,7 +55,8 @@ function Work() {
         </Card.Body>
       </Card>
       </div>
-      <div className='col-md-3 pt-3'>
+      <div className='col-md-1'></div>
+      <div className='col-md-2 pt-3'>
       <Card style={{ width: '18rem' }}>
       <div className='overlay'>
          <Card.Img variant="top" src="https://image.winudf.com/v2/image/Y29tLm5vcnRoZHJvaWQuc2ltcGxldGltZXdpZGdldF9pY29uXzE1MzIxMDU1NjNfMDY3/icon.png?w=&fakeurl=1" className='images' />
@@ -70,7 +72,8 @@ function Work() {
         </Card.Body>
       </Card>
       </div>
-      <div className='col-md-3 pt-3 '>
+      <div className='col-md-1'></div>
+      <div className='col-md-2 pt-3 '>
       <Card style={{ width: '18rem' }}>
        <div className='overlay'>
           <Card.Img variant="top" src="https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/calculator/life-planning-tools/bmi-calculator/banner-image-bmi.png" className='images' />
@@ -87,7 +90,7 @@ function Work() {
         </Card.Body>
       </Card>
       </div>
-  
+      <div className='col-md-1'></div>
       </div>
    </section>
     

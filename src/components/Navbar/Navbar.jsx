@@ -10,7 +10,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Navbar() {
   return (
     <>
-    <div className='Nav'>
+
+<nav class="navbar navbar-expand m-3 ms-5" >
+  <a style={{color:'yellow'}}  class="navbar-brand" href="#">Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style={{color:'yellow'}}>
+    <span class="navbar-toggler-icon" style={{color:'yellow'}}></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a style={{color:'yellow'}}  class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+      <a style={{color:'yellow'}}  class="nav-item nav-link" href="#skills">Skill</a>
+      <a style={{color:'yellow'}}  class="nav-item nav-link" href="#skills">Project</a>
+      <a style={{color:'yellow'}}  class="nav-item nav-link " href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+    {/* <div className='Nav'>
       <nav class="navbar ">
       <FontAwesomeIcon icon={faBars}  className='icon' style={{color:'yellow'}} />
     <a  style={{color:'yellow'}} class="navbar-brand " href="#home">Home</a>
@@ -18,7 +33,7 @@ function Navbar() {
     <a style={{color:'yellow'}} class="navbar-brand " href="#projects">Project</a>
     <a style={{color:'yellow'}} class="navbar-brand " href="#contact">Contact</a>
   </nav>
-    </div>
+    </div> */}
 
 {/* <div className=' row Nav '>
   

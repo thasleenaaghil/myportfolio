@@ -14,22 +14,22 @@ function Contact() {
     <>
     <section id='contact'>
       <div className='row contact'><h3>Get in touch</h3>
-      <div className='col-md-6'>
+      
       <h3>Let's talk</h3>
-     <p className='ps-3 ms-5 m-md-1' style={{textAlign:'justify'}}>I'm currently available to take on new projects,so feel free to send me a message about anything that you want me to work on.</p>
-     <div >
-         <ul>
-           <li>
-             <FontAwesomeIcon icon={faEnvelope} beat /> <h6>thasleenalatheefaliyam@gmail.com</h6> <br />
-             <FontAwesomeIcon icon={faGithub} beat /> <h6>thasleenaaghil</h6> <br />
-             <FontAwesomeIcon icon={faPhone} beat /> <h6>2332356353</h6> <br />
-             <FontAwesomeIcon icon={faLinkedin} beat /> <h6>Thasleena A L</h6>
-           </li>
-         </ul>
+      <div className='col-md-2'></div>
+      <div className='col-md-3'>
+    <div className='about-para'> <p className='ps-2 pt-5 m-md-1' style={{textAlign:'justify'}}>I'm currently available to take on new projects,so feel free to send me a message about anything that you want me to work on.</p></div>
+     <div className='information ps-2' >
+         
+            <div className='icon'> <FontAwesomeIcon className='' icon={faEnvelope} beat /> <span>thasleenalatheefaliyam@gmail.com</span> </div>
+             <div className='icon ' style={{marginRight:'17rem'}}><FontAwesomeIcon icon={faGithub} beat /> <span>thasleenaaghil</span> </div>
+             <div className='icon' style={{marginRight:'18rem'}}><FontAwesomeIcon icon={faPhone} beat /> <span>2332356353</span> </div>
+           <div className='icon' style={{marginRight:'17rem'}}>  <FontAwesomeIcon icon={faLinkedin} beat /> <span>Thasleena A L</span></div>
+           
                   
               </div>
       </div>
-  
+    <div className='col-md-1'></div>
       <div className='col-md-6 contacts'>
       
        <input type="email" class="form-control" placeholder='Your Name'  />

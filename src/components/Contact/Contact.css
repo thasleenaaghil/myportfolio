@@ -6,8 +6,8 @@
    
 }
 .form-control{
-    width:  50%;
-    margin-left: 120px;
+    width:  70%;
+    margin-left: 40px;
     padding-top: 20px;
     margin-top: 70px;
     background-color: transparent;
@@ -20,3 +20,18 @@ textarea{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+button{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.icon{
+    margin-bottom: 1.5rem;
+    margin-right: 5rem;
+}
+.icon span{
+    margin-left: 0.5rem;
+    font-size: 20px;
+}
+.information{
+    margin-top: 20px;
+ }
