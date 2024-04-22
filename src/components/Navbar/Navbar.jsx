@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
 
-<nav class="navbar navbar-expand m-3 ms-5" >
+<nav class="navbar navbar-expand m-3 ms-2" >
   <a style={{color:'yellow'}}  class="navbar-brand" href="#">Portfolio</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style={{color:'yellow'}}>
     <span class="navbar-toggler-icon" style={{color:'yellow'}}></span>
